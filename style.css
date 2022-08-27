@@ -69,6 +69,9 @@ header {
     float: right;
     width: 30%;
 }
+#logoimg{
+    height: 5em;
+}
 /*showcase*/
 
 #showcase .container {
@@ -252,22 +255,36 @@ form .form-control {
     width: 50%;
     height: 50%;
     align-items: center;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    max-width: 70rem;
+    border-radius: 10px;
 }
 
-#climaID{
-    font-size: x-small;
-    font-weight: 100;
-    font-family: 'Rubik Dirt', cursive;
+#clima h2{
+    font-size: 30px;
+    color: #000000;
 }
 
-#climaMain{
+#clima #climaMain{
     font-size: large;
     font-weight: 100;
+    color: #000000;
 }
-#climaDescription{
+#clima #climaDescription{
     font-size: large;
     font-weight: 100;
+    color: #000000;
 }
+
+#clima #climaIcono {
+    float: inline-end;
+    padding: 0;
+}
+
 
 /*Footer*/
 footer{
@@ -281,4 +298,7 @@ footer{
     
     text-align: center;
     
+}
+#clima-texto{
+    text-align: center;
 }

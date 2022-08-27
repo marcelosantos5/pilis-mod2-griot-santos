@@ -22,7 +22,7 @@
             </div>
             <div id="logo">
                 <img class="container">
-                <a href="#home" class="logo"><img src="./recursos/logoPaseo.png" alt="Logo"></a>
+                <a href="#home" class="logo"><img id="logoimg" src="./recursos/logoPaseo.png" alt="Logo"></a>
             </div>
         </nav>
 
@@ -103,12 +103,13 @@
     </section>
 
     <section id="clima" name="clima">
-        <h2 id="climaId"></h2>
-        <p id="climaMain"></p>
-        <p id="climaDescription"></p>
-        <img src="" alt="icono del clima" id="climaIcono">
+        <div id="clima-texto">
+            <h2 id="climaId"></h2><img src="" alt="icono del clima" id="climaIcono">
+            <p id="climaMain"></p>
+            <p id="climaDescription"></p>
+        </div>
     </section>
-    
+
     <script src="main.js"></script>
 
 </body>
@@ -116,8 +117,8 @@
     <div id="footer">
 
         <div id="whatsapp">
-            <a href="https://api.whatsapp.com/send?phone=5493884852705" target="_blank"><img src="./recursos/whatsapp.png"
-                    alt="">
+            <a href="https://api.whatsapp.com/send?phone=5493884852705" target="_blank"><img
+                    src="./recursos/whatsapp.png" alt="">
                 <h4>Mandanos un Whatsapp</h4>
             </a>
         </div>
